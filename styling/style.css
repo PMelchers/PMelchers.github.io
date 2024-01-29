@@ -7,14 +7,14 @@ body {
     color: #fff;
   }
   
-  header {
+  .header {
     background-color: #000000;
     color: #fff;
     text-align: center;
     padding: 1em 0;
   }
   
-  nav {
+  .nav {
     display: flex;
     justify-content: center;
     background-color: #212527;
@@ -36,11 +36,11 @@ body {
     padding: 20px;
   }
   
-  section {
+  .section {
     padding: 20px 0;
   }
   
-  h1, h2 {
+  .h1, .h2 {
     color: #fff;
   }
   
@@ -69,7 +69,7 @@ body {
     padding: 16px;
   }
   
-  footer {
+  .footer {
     background-color: #000000;
     color: #fff;
     text-align: center;
@@ -78,11 +78,11 @@ body {
 
   
   @media only screen and (max-width: 600px) {
-    header {
+    .header {
       padding: 0.5em 0;
     }
   
-    nav {
+    .nav {
       flex-direction: column;
       align-items: center;
     }
@@ -100,7 +100,7 @@ body {
       margin: 0 0 20px 0;
     }
   
-    footer {
+    .footer {
       padding: 0.5em 0;
     }
   }
