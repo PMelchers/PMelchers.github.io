@@ -3,12 +3,12 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #000;
+    background-color: #3e3535;
     color: #fff;
   }
   
   header {
-    background-color: #3498db;
+    background-color: #000000;
     color: #fff;
     text-align: center;
     padding: 1em 0;
@@ -17,7 +17,7 @@ body {
   nav {
     display: flex;
     justify-content: center;
-    background-color: #2980b9;
+    background-color: #212527;
   }
   
   nav a {
