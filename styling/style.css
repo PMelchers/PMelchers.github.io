@@ -27,7 +27,7 @@ body {
   }
   
   nav a:hover {
-    background-color: #1a5276;
+    background-color: #000000;
   }
   
   .container {
@@ -70,7 +70,7 @@ body {
   }
   
   footer {
-    background-color: #3498db;
+    background-color: #000000;
     color: #fff;
     text-align: center;
     padding: 1em 0;
