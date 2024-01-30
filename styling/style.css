@@ -1,85 +1,51 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background-color: #3e3535;
+    background-color: #000000;
     color: #fff;
   }
-  
   header {
     background-color: #000000;
     color: #fff;
     text-align: center;
-    padding: 1em 0;
+    padding: 16px 0;
   }
-  
   nav {
     display: flex;
     justify-content: center;
-    background-color: #212527;
+    background-color: #243241;
   }
-  
   nav a {
     color: #fff;
     text-decoration: none;
-    padding: 1em;
+    padding: 16px;
   }
-  
   nav a:hover {
     background-color: #000000;
   }
-  
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  section {
-    padding: 20px 0;
-  }
-  
-  h1, h2 {
+  h1 {
     color: #fff;
   }
-  
+  h2 {
+    color: #fff;
+  }
   .projects {
     display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .project {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 20px 20px 0;
-    background-color: #fff;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .project img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-  }
-  
-  .project-info {
-    padding: 16px;
+    justify-content: center;
   }
   
   footer {
     background-color: #000000;
     color: #fff;
     text-align: center;
-    padding: 1em 0;
+    padding: 16px 0;
   }
 
   
   @media only screen and (max-width: 600px) {
     header {
-      padding: 0.5em 0;
+      padding: 8px 0;
     }
   
     nav {
@@ -88,7 +54,7 @@ body {
     }
   
     nav a {
-      padding: 0.5em;
+      padding: 5px;
     }
   
     .container {
@@ -101,6 +67,47 @@ body {
     }
   
     footer {
-      padding: 0.5em 0;
+      padding: 8px 0;
     }
+  }
+  .project {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 20px 20px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-info {
+    padding: 16px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .contactfoto {
+    width: 300px;
+    height: 200px;
+  }
+  .project {
+    height: 300px;
+    width: 45%;
+    background-color: #000000;
+  }
+  .projecttitel {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    font-size: 40px;
+
+  }
+  .projectfoto {
+    height: 200px;
+    width: 100%;
+  }
+  h3 {
+    color: #fff
   }
